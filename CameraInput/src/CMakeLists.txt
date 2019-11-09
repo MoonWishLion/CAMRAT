@@ -1,7 +1,7 @@
 cmake_minimum_required( VERSION 2.8 )
 
 ## Required software
-#find_package( <<<name>>> REQUIRED )
+find_package( OpenCV REQUIRED )
 
 ## Sources and headers
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} )
@@ -26,9 +26,8 @@ add_executable( ${MAIN_EXE_NAME} ${MAIN_SOURCES}
               )
 
 ## 2. Link...
-target_link_libraries( ${MAIN_EXE_NAME} )
+target_link_libraries( ${MAIN_EXE_NAME} ${OpenCV_LIBS} )
 
 ## 3. Install...
 install( TARGETS ${MAIN_EXE_NAME}
          RUNTIME DESTINATION bin )
-

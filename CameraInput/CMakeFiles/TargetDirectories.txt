@@ -1,13 +1,11 @@
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/CMakeFiles/install/strip.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/CMakeFiles/install/local.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/CMakeFiles/list_install_components.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/CMakeFiles/install.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/install/strip.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/install/local.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/generic_executable.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/list_install_components.dir
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/bin/CMakeFiles/install.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles/rebuild_cache.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles/install/local.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles/edit_cache.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles/install.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles/list_install_components.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/bin/CMakeFiles/rebuild_cache.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/bin/CMakeFiles/generic_executable.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/bin/CMakeFiles/edit_cache.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/bin/CMakeFiles/install.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/bin/CMakeFiles/list_install_components.dir
+/home/matt/hacknjit/CAMRAT/CameraInput/bin/CMakeFiles/install/local.dir

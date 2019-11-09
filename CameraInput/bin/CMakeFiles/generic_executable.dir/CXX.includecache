@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Michael/Eclipse Workspace/HackNJIT Workspace/CameraInput/src/main.cpp
+/home/matt/hacknjit/CAMRAT/CameraInput/src/main.cpp
+opencv2/opencv.hpp
+-
 iostream
 -
 
