@@ -24,3 +24,6 @@ hs_err_pid*
 
 # cmake stuff
 CMakeCache.txt
+CameraInput/bin/
+CameraInput/CMakeFiles/
+CameraInput/Makefile
