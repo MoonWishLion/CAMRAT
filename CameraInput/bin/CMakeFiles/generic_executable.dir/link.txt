@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O3  -rdynamic CMakeFiles/generic_executable.dir/main.cpp.o  -o generic_executable 
