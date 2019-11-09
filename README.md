@@ -1,2 +1,2 @@
 # CAMRAT
-Camera Activated Mouse Relocation Assistance Tool -- HackNJIT 2019 Project
+Camera Activated Maze Rat Ability Tester -- HackNJIT 2019 Project
