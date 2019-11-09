@@ -24,3 +24,10 @@ hs_err_pid*
 
 # cmake stuff
 CMakeCache.txt
+CameraInput/bin/
+CameraInput/CMakeFiles/
+CameraInput/Makefile
+CameraInput/cmake_install.cmake
+CameraInput/src/opencvimagereader/CMakeFiles/
+CameraInput/src/opencvimagereader/Makefile
+CameraInput/src/opencvimagereader/cmake_install.cmake

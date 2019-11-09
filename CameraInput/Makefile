@@ -161,6 +161,19 @@ generic_executable/preinstall:
 	$(MAKE) -f bin/CMakeFiles/generic_executable.dir/build.make bin/CMakeFiles/generic_executable.dir/preinstall
 .PHONY : generic_executable/preinstall
 
+#=============================================================================
+# Target rules for targets named opencvimagereader
+
+# Build rule for target.
+opencvimagereader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencvimagereader
+.PHONY : opencvimagereader
+
+# fast build rule for target.
+opencvimagereader/fast:
+	$(MAKE) -f bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/build.make bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/build
+.PHONY : opencvimagereader/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +186,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... generic_executable"
+	@echo "... opencvimagereader"
 .PHONY : help
 
 

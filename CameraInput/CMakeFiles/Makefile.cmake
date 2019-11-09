@@ -12,25 +12,32 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "src/CMakeLists.txt"
+  "src/opencvimagereader/CMakeLists.txt"
   "/usr/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/share/OpenCV/OpenCVConfig.cmake"
   "/usr/share/OpenCV/OpenCVModules-release.cmake"
   "/usr/share/OpenCV/OpenCVModules.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCXXInformation.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeParseArguments.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.5/Modules/CheckCXXCompilerFlag.cmake"
+  "/usr/share/cmake-3.5/Modules/CheckCXXSourceCompiles.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.5/Modules/GenerateExportHeader.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.5/Modules/exportheader.cmake.in"
   )
 
 # The corresponding makefile is:
@@ -43,9 +50,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "bin/opencvimagereader/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "bin/CMakeFiles/generic_executable.dir/DependInfo.cmake"
+  "bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/DependInfo.cmake"
   )

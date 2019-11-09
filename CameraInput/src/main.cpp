@@ -16,6 +16,7 @@ limitations under the License.
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include <opencvimagereader.h>
 
 using namespace cv;
 using namespace std;
@@ -23,7 +24,9 @@ using namespace std;
 int main(int argc, char** argv)
 {
  // Read the image file
- Mat image = imread("./gollum.jpg");
+ // test of making a library here
+ OpenCVImageReader reader = OpenCVImageReader();
+ Mat image = reader.read("./gollum.jpg");
 
  // Check for failure
  if (image.empty())

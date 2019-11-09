@@ -64,16 +64,19 @@ CMAKE_BINARY_DIR = /home/matt/hacknjit/CAMRAT/CameraInput
 
 # Convenience name for "all" pass in the directory.
 bin/all: bin/CMakeFiles/generic_executable.dir/all
+bin/all: bin/opencvimagereader/all
 
 .PHONY : bin/all
 
 # Convenience name for "clean" pass in the directory.
 bin/clean: bin/CMakeFiles/generic_executable.dir/clean
+bin/clean: bin/opencvimagereader/clean
 
 .PHONY : bin/clean
 
 # Convenience name for "preinstall" pass in the directory.
 bin/preinstall: bin/CMakeFiles/generic_executable.dir/preinstall
+bin/preinstall: bin/opencvimagereader/preinstall
 
 .PHONY : bin/preinstall
 
@@ -81,7 +84,7 @@ bin/preinstall: bin/CMakeFiles/generic_executable.dir/preinstall
 # Target rules for target bin/CMakeFiles/generic_executable.dir
 
 # All Build rule for target.
-bin/CMakeFiles/generic_executable.dir/all:
+bin/CMakeFiles/generic_executable.dir/all: bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/all
 	$(MAKE) -f bin/CMakeFiles/generic_executable.dir/build.make bin/CMakeFiles/generic_executable.dir/depend
 	$(MAKE) -f bin/CMakeFiles/generic_executable.dir/build.make bin/CMakeFiles/generic_executable.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles --progress-num=1,2,3 "Built target generic_executable"
@@ -94,7 +97,7 @@ all: bin/CMakeFiles/generic_executable.dir/all
 
 # Build rule for subdir invocation for target.
 bin/CMakeFiles/generic_executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 bin/CMakeFiles/generic_executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles 0
 .PHONY : bin/CMakeFiles/generic_executable.dir/rule
@@ -121,6 +124,61 @@ bin/CMakeFiles/generic_executable.dir/clean:
 
 # clean rule for target.
 clean: bin/CMakeFiles/generic_executable.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory bin/opencvimagereader
+
+# Convenience name for "all" pass in the directory.
+bin/opencvimagereader/all: bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/all
+
+.PHONY : bin/opencvimagereader/all
+
+# Convenience name for "clean" pass in the directory.
+bin/opencvimagereader/clean: bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/clean
+
+.PHONY : bin/opencvimagereader/clean
+
+# Convenience name for "preinstall" pass in the directory.
+bin/opencvimagereader/preinstall:
+
+.PHONY : bin/opencvimagereader/preinstall
+
+#=============================================================================
+# Target rules for target bin/opencvimagereader/CMakeFiles/opencvimagereader.dir
+
+# All Build rule for target.
+bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/all:
+	$(MAKE) -f bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/build.make bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/depend
+	$(MAKE) -f bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/build.make bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles --progress-num=4,5 "Built target opencvimagereader"
+.PHONY : bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/all
+
+# Include target in all.
+all: bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matt/hacknjit/CAMRAT/CameraInput/CMakeFiles 0
+.PHONY : bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/rule
+
+# Convenience name for target.
+opencvimagereader: bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/rule
+
+.PHONY : opencvimagereader
+
+# clean rule for target.
+bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/clean:
+	$(MAKE) -f bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/build.make bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/clean
+.PHONY : bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/clean
+
+# clean rule for target.
+clean: bin/opencvimagereader/CMakeFiles/opencvimagereader.dir/clean
 
 .PHONY : clean
 
