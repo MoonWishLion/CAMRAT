@@ -27,3 +27,4 @@ CMakeCache.txt
 CameraInput/bin/
 CameraInput/CMakeFiles/
 CameraInput/Makefile
+CameraInput/cmake_install.cmake
