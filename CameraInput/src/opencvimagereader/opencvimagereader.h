@@ -16,6 +16,9 @@ limitations under the License.
 #ifndef OPENCVIMAGEREADER_H
 #define OPENCVIMAGEREADER_H
 
+#define _GLIBCXX_USE_CXX11_ABI 0
+
+#include <iostream>
 #include <opencv2/opencv.hpp>
 // this is hacky, figure out how to make cmake point there
 #include "../../bin/opencvimagereader/opencvimagereader_Export.h"
@@ -27,7 +30,7 @@ using namespace std;
 class OpenCVImageReader {
 public:
 
-  opencvimagereader_EXPORT Mat read(string filenm);
+  opencvimagereader_EXPORT Mat read(cv::String filenm);
   // EXPORTED Mat read(string filenm);
 
 };

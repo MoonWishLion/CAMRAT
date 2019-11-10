@@ -1,38 +1,21 @@
-cmake_minimum_required( VERSION 2.8 )
-project( CameraInput C CXX )
+cmake_minimum_required(VERSION 3.2)
 
-add_subdirectory(opencvimagereader)
+project(CameraInput)
 
-## Required software
-find_package( OpenCV REQUIRED )
+SET(CMAKE_C_COMPILER i686-w64-mingw32-gcc)
+SET(CMAKE_CXX_COMPILER i686-w64-mingw32-g++)
+SET(CMAKE_RC_COMPILER i686-w64-mingw32-windres)
+set(CMAKE_RANLIB i686-w64-mingw32-ranlib)
 
-## Sources and headers
-include_directories( ${CMAKE_CURRENT_SOURCE_DIR}
-                     ${CMAKE_CURRENT_SOURCE_DIR}/opencvimagereader
-                    )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS)
 
-## Find all source files to be compiled into object files
-file( GLOB SOURCES *.cc *.cpp )
+target_link_libraries(shared_lib.dll)
 
-## C++ compiler options
-set( CMAKE_CXX_FLAGS "-Wall -Wextra" )
-set( CMAKE_CXX_FLAGS_DEBUG "-g -O0" )
-set( CMAKE_CXX_FLAGS_RELEASE "-O3" )
-
-## Source file containing the "main" function
-set( MAIN_SOURCES main.cpp )
-## Specify a name for the generated executable file
-set( MAIN_EXE_NAME generic_executable )
-
-
-## 1. Compile...
-add_executable( ${MAIN_EXE_NAME} ${MAIN_SOURCES}
-                                 ${SOURCES}
-              )
-
-## 2. Link...
-target_link_libraries( ${MAIN_EXE_NAME} ${OpenCV_LIBS} opencvimagereader )
-
-## 3. Install...
-install( TARGETS ${MAIN_EXE_NAME}
-         RUNTIME DESTINATION ${LIB_INSTALL_BIN_DIR} )
+add_library(shared_lib.dll SHARED main.cpp main.hpp)
+set_target_properties(shared_lib.dll PROPERTIES
+        PREFIX ""
+        SUFFIX ""
+        LINK_FLAGS "-Wl,--add-stdcall-alias"
+        POSITION_INDEPENDENT_CODE 0 # this is to avoid MinGW warning; MinGW generates position-independent-code for DLL by default
+        )
