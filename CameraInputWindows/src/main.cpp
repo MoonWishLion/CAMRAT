@@ -23,16 +23,11 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	// Read the image file
-	/*Mat image = imread("./hand.jpg");
-	
-	// Check for failure
-	if (image.empty())
-	{
-		cout << "Could not open or find the image" << endl;
-		return -1;
-	}*/
-	
+        // Test integration with our toy lib to be DLL-ified
+        OpenCVImageReader reader = OpenCVImageReader()
+        Mat image = reader.read("./gollum.jpg");
+
+        // open a webcam window
 	VideoCapture cap;
 	cap.open(1, CAP_ANY);
 	
