@@ -176,8 +176,7 @@ extern "C" PUBLIC_FUNCTION void startThread(bool showWindow)
 //int main(int argc, char** argv)
 extern "C" PUBLIC_FUNCTION void runLoop(bool showWindow)
 {
-	//OpenCVImageReader reader = OpenCVImageReader();
-	
+	// open a webcam window
 	VideoCapture cap;
 	cap.open(1, CAP_ANY);
 	
@@ -318,9 +317,7 @@ extern "C" PUBLIC_FUNCTION void runLoop(bool showWindow)
 		}
 	}
 	
-	if(showWindow)
-	{
-		destroyWindow(windowName);
-	}
-	//return 0;
+	//waitKey(0); // Wait for any keystroke in the window
+	destroyWindow(windowName); //destroy the created window
+	return 0;
 }

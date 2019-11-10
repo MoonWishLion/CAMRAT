@@ -1,0 +1,17 @@
+/home/matt/hacknjit/mingw-test/CMakeFiles/rebuild_cache.dir
+/home/matt/hacknjit/mingw-test/CMakeFiles/install/local.dir
+/home/matt/hacknjit/mingw-test/CMakeFiles/edit_cache.dir
+/home/matt/hacknjit/mingw-test/CMakeFiles/install.dir
+/home/matt/hacknjit/mingw-test/CMakeFiles/list_install_components.dir
+/home/matt/hacknjit/mingw-test/bin/CMakeFiles/rebuild_cache.dir
+/home/matt/hacknjit/mingw-test/bin/CMakeFiles/generic_executable.dir
+/home/matt/hacknjit/mingw-test/bin/CMakeFiles/edit_cache.dir
+/home/matt/hacknjit/mingw-test/bin/CMakeFiles/install.dir
+/home/matt/hacknjit/mingw-test/bin/CMakeFiles/list_install_components.dir
+/home/matt/hacknjit/mingw-test/bin/CMakeFiles/install/local.dir
+/home/matt/hacknjit/mingw-test/bin/opencvimagereader/CMakeFiles/rebuild_cache.dir
+/home/matt/hacknjit/mingw-test/bin/opencvimagereader/CMakeFiles/opencvimagereader.dll.dir
+/home/matt/hacknjit/mingw-test/bin/opencvimagereader/CMakeFiles/install/local.dir
+/home/matt/hacknjit/mingw-test/bin/opencvimagereader/CMakeFiles/install.dir
+/home/matt/hacknjit/mingw-test/bin/opencvimagereader/CMakeFiles/list_install_components.dir
+/home/matt/hacknjit/mingw-test/bin/opencvimagereader/CMakeFiles/edit_cache.dir
