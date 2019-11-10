@@ -16,5 +16,5 @@ GENERATE_EXPORT_HEADER( opencvimagereader
              EXPORT_FILE_NAME opencvimagereader_Export.h
              STATIC_DEFINE opencvimagereader_BUILT_AS_STATIC
 )
-install(TARGETS opencvimagereader DESTINATION ${PROJECT_SOURCE_DIR}/bin)
-install(FILES opencvimagereader.h DESTINATION ${PROJECT_SOURCE_DIR}/include)
+install(TARGETS opencvimagereader DESTINATION ${LIB_INSTALL_LIB_DIR})
+install(FILES opencvimagereader.h DESTINATION ${LIB_INSTALL_INCLUDE_DIR})

@@ -35,4 +35,4 @@ target_link_libraries( ${MAIN_EXE_NAME} ${OpenCV_LIBS} opencvimagereader )
 
 ## 3. Install...
 install( TARGETS ${MAIN_EXE_NAME}
-         RUNTIME DESTINATION bin )
+         RUNTIME DESTINATION ${LIB_INSTALL_BIN_DIR} )

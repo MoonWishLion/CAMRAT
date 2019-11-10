@@ -19,8 +19,12 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 ## Install libraries (if any) to <install_directory>/bin
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
+set(LIB_INSTALL_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
+set(LIB_INSTALL_BIN_DIR ${PROJECT_SOURCE_DIR}/bin)
+set(LIB_INSTALL_LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
+
 ## add library include dir
-include_directories( ${PROJECT_SOURCE_DIR}/include )
+include_directories( LIB_INSTALL_INCLUDE_DIR )
 ## add library headers dir
 include_directories( ${PROJECT_SOURCE_DIR}/src/opencvimagereader )
 
