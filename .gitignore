@@ -65,3 +65,4 @@ CameraInput/bin/
 CameraInput/CMakeFiles/
 CameraInput/Makefile
 CameraInput/cmake_install.cmake
+CameraInput/output/
