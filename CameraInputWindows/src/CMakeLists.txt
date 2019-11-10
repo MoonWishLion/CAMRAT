@@ -18,7 +18,7 @@ file( GLOB SOURCES *.cc *.cpp )
 set( CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++11" )
 set( CMAKE_CXX_FLAGS_DEBUG "-g -O0" )
 set( CMAKE_CXX_FLAGS_RELEASE "-O3" )
-set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS) #not sure what this is for, see https://slomkowski.eu/tutorials/compiling-c-plus-plus-application-for-windows-under-linux/
+#set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS) #not sure what this is for, see https://slomkowski.eu/tutorials/compiling-c-plus-plus-application-for-windows-under-linux/
 
 ## Source file containing the "main" function
 set( MAIN_SOURCES main.cpp )

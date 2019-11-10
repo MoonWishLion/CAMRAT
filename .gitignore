@@ -28,6 +28,8 @@ CameraInput/CMakeFiles/
 CameraInput/lib
 CameraInput/include
 CameraInput/src/opencvimagereader/CMakeFiles/
+CameraInput/Test.exe
+CameraInput/winbuild
 CameraInputWindows/bin/
 CameraInputWindows/CMakeFiles/
 CameraInputWindows/lib
@@ -37,6 +39,9 @@ CMakeCache.txt
 Makefile
 cmake_install.cmake
 install_manifest.txt
+**/CMakeFiles
+.metadata/
+
 =======
 # Compiled class file
 *.class

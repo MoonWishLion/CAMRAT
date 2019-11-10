@@ -10,8 +10,8 @@ add_library(opencvimagereader.dll SHARED ${SOURCE_FILES})
 set_target_properties(opencvimagereader.dll PROPERTIES
         PREFIX ""
         SUFFIX ""
-         LINK_FLAGS "-Wl,--add-stdcall-alias" #should be required but broken
-        POSITION_INDEPENDENT_CODE 0 # this is to avoid MinGW warning; 
+#        LINK_FLAGS "-Wl,--add-stdcall-alias" #should be required but broken
+        POSITION_INDEPENDENT_CODE 1 # this is to avoid MinGW warning; 
         # MinGW generates position-independent-code for DLL by default
 )
 

@@ -24,8 +24,8 @@ using namespace std;
 int main(int argc, char** argv)
 {
         // Test integration with our toy lib to be DLL-ified
-        OpenCVImageReader reader = OpenCVImageReader()
-        Mat image = reader.read("./gollum.jpg");
+        OpenCVImageReader reader = OpenCVImageReader();
+        Mat testimage = reader.read("./gollum.jpg");
 
         // open a webcam window
 	VideoCapture cap;
