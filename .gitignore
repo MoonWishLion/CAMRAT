@@ -26,8 +26,11 @@ hs_err_pid*
 CMakeCache.txt
 CameraInput/bin/
 CameraInput/CMakeFiles/
+CameraInput/lib
+CameraInput/include
 CameraInput/Makefile
 CameraInput/cmake_install.cmake
+CameraInput/install_manifest.txt
 CameraInput/src/opencvimagereader/CMakeFiles/
 CameraInput/src/opencvimagereader/Makefile
 CameraInput/src/opencvimagereader/cmake_install.cmake

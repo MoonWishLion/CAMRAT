@@ -16,7 +16,7 @@ limitations under the License.
 
 #include "opencvimagereader.h"
 
-// opencvimagereader_Export Mat OpenCVImageReader::read(string filenm) {
-Mat OpenCVImageReader::read(string filenm) {
+opencvimagereader_EXPORT Mat OpenCVImageReader::read(string filenm) {
+// EXPORTED Mat OpenCVImageReader::read(string filenm) {
   return imread(filenm);
 }
